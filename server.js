@@ -27,7 +27,7 @@ Gamedig.query({
 });
 }
 
-client.login("MzQ0OT5NDxMD3Mzg5NDU4.DNI7w.1qrFa2f4PB1aS63874sqvg0E"); //insert your bot token here.
+client.login(process.env.TOKEN); //insert your bot token here.
 var prettyplayerlist = "";
 function printPlayerlist(){
   if (playerlist.length == 0){
